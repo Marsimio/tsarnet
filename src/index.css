@@ -1,0 +1,25 @@
+:root {
+  --terminal-bg: #0a0000;
+  --terminal-red: #ff3131;
+  --terminal-red-dim: #9b0000;
+  --terminal-font: 'Courier New', Courier, monospace;
+  
+  background-color: var(--terminal-bg);
+  color: var(--terminal-red);
+  font-family: var(--terminal-font);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--terminal-bg);
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

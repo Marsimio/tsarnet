@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "webgl-portfolio-8678c"
+  },
+  "targets": {
+    "webgl-portfolio-8678c": {
+      "hosting": {
+        "tsarnet": [
+          "marsim-tsarnet"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
